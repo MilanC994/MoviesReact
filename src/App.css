@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+    background-color: rgb(48,48,48);
+  
+    
+  }
+  .slotsContainer
+  {
+    display:flex;
+    flex-wrap: wrap;
+  }
+  
+  .container{
+    border: 5px solid #9e0d38;
+    margin: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 70%;
+    min-height: 270px;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #cc5b39;
+    color: #9e0d38;
+    flex: 1 0 21%;
+  
+  }
+  .App>h1
+  {
+    color: #9e0d38;
+  }
+  .container:hover{
+    cursor: pointer;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  
+  

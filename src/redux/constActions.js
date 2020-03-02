@@ -1,0 +1,3 @@
+export const FETCH_MOVIES = 'FETCH_MOVIES'
+export const FETCH_PEOPLE = 'FETCH_PEOPLE'
+export const PRINT_STATE= 'PRINT_STATE'
